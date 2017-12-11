@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />       
+        <style>
+            .gallery {
+                clear: both;
+            }
+            .gallery-item {
+                float: left;
+                display: block;
+                text-decoration: none;
+                padding: 3px;
+                border: 1px solid rgb(200, 200, 200);
+                margin: 5px;
+            }
+            .gallery-item:hover {
+                text-decoration: none;
+            }
+            .gallery-item img {
+                max-width: 200px;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="./lightbox/lightbox.css"></link>
+    </head>
+    <body>
+        
+        <div class="gallery">
+            <a href="./img/big/bild1.jpg" class="gallery-item">
+                <img src="./img/small/bild1.jpg" alt="" />
+            </a>
+            <a href="./img/big/bild2.jpg" class="gallery-item">
+                <img src="./img/small/bild2.jpg" alt="" />
+            </a>
+            <a href="./img/big/bild3.jpg" class="gallery-item">
+                <img src="./img/small/bild3.jpg" alt="" />
+            </a>
+            <a href="./img/big/bild4.jpg" class="gallery-item">
+                <img src="./img/small/bild4.jpg" alt="" />
+            </a>
+        </div>
+
+        <script type="text/javascript" src="./lib/jquery/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="./lightbox/lightbox.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
