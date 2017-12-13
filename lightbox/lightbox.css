@@ -1,4 +1,4 @@
-#overlay {
+#lightbox__overlay {
     position: absolute;
     top:0px;
     right:0px;
@@ -7,14 +7,14 @@
     background-color: black;
     opacity: 0.75;
 }
-#overlay-container {
+#lightbox__overlay-container {
     position: absolute;
     top:0px;
     right:0px;
     left:0px;
     bottom:0px;
 }
-#overlay-img {
+#lightbox__overlay-img {
     display: block;
     margin-top: 10%; 
     margin-right: auto;
